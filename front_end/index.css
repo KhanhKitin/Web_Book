@@ -1,0 +1,400 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* bắt đầu css contact */
+.contact {
+  width: 100%;
+  height: 50px;
+  background-color: #f2f2f2;
+}
+.contact-content {
+  width: 85%;
+  margin: auto;
+  display: flex;
+}
+.content-left {
+  width: 50%;
+  display: flex;
+}
+.left-title-one {
+  width: 40%;
+  line-height: 50px;
+}
+.left-title-one span.mail {
+  font-size: 1rem;
+  color: #999999;
+  padding-left: 10px;
+  padding-right: 20px;
+  border-right: 1px solid #333333;
+}
+.left-title-two {
+  width: 50%;
+  line-height: 50px;
+  display: flex;
+}
+.left-title-two i {
+  font-size: 21px;
+  padding-top: 15px;
+  padding-left: 7px;
+}
+.left-title-two span.phone {
+  font-size: 1rem;
+  color: #999999;
+  padding-left: 10px;
+}
+.content-right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 50px;
+}
+.content-right span {
+  font-size: 0.9rem;
+  color: #999999;
+}
+.content-right i {
+  color: #777777;
+  padding-left: 7px;
+}
+.right-title-one {
+  width: 20%;
+}
+.right-title-two {
+  width: 25%;
+}
+.right-title-three {
+  width: 35%;
+}
+
+/* kết thúc css contact */
+
+/* bắt đầu css logo */
+.logo {
+  width: 100%;
+  height: 150px;
+}
+.logo-detail {
+  width: 85%;
+  margin: auto;
+  display: flex;
+}
+.logo-image {
+  width: 20%;
+  line-height: 170px;
+}
+.service {
+  width: 75%;
+  display: flex;
+  padding-top: 45px;
+  margin-left: 15px;
+}
+.service-one {
+  width: 30%;
+  display: flex;
+  padding-left: 15px;
+}
+.icon-service {
+  width: 10%;
+  padding-top: 15px;
+  padding-right: 32px;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.service-title {
+  width: 90%;
+}
+.service-free {
+  border-right: 1px solid #777777;
+}
+.service-free p {
+  font-size: 0.9rem;
+  color: #999999;
+  padding-top: 15px;
+}
+
+.service-free-detail p {
+  font-size: 0.9rem;
+  color: #999999;
+  padding-top: 15px;
+}
+.service-two {
+  width: 30%;
+  display: flex;
+  padding-left: 15px;
+}
+
+.service-three {
+  width: 30%;
+  display: flex;
+  padding-left: 15px;
+}
+
+.shop-bag {
+  width: 5%;
+}
+.shop-bag i {
+  font-size: 35px;
+  line-height: 140px;
+}
+
+/* kết thúc css logo*/
+
+/* bắt đầu css menu */
+.menu {
+  width: 100%;
+  height: 70px;
+  background-color: #fb9935;
+}
+.menu-detail {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.list-menu {
+  width: 55%;
+}
+.list-menu ul {
+  list-style-type: none;
+}
+.list-menu ul li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 100px;
+  line-height: 70px;
+}
+.list-menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.95rem;
+}
+.list-menu-style {
+  text-align: center;
+}
+.icon-down i {
+  padding-left: 7px;
+  font-size: 15px;
+}
+.search {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.search-select {
+  background-color: #ffffff;
+  width: 150px;
+  height: 32px;
+  margin-top: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.search-select p {
+  margin-top: 7px;
+  border-right: 1px solid #555555;
+}
+.search-select span {
+  padding: 0px 18px;
+  font-size: 1rem;
+  color: #999999;
+}
+.search-input {
+  width: 36%;
+  height: 32px;
+  line-height: 70px;
+  margin-top: 20px;
+  border-style: none;
+  padding-left: 10px;
+}
+input:focus {
+  outline:0;
+}
+::-webkit-input-placeholder {
+  /* chỉnh màu placeholder*/
+  color: #999999;
+}
+:-moz-placeholder {
+  color: #999999;
+}
+::-moz-placeholder {
+  color: #999999;
+}
+:-ms-input-placeholder {
+  color: #999999;
+}
+.search-buuton {
+  width: 40px;
+  height: 32px;
+  margin-top: 20px;
+  border-style: none;
+  background-color: #ffffff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* kết thúc css menu*/
+
+/* bắt đầu css wrapper*/
+.wrapper {
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 1500px;
+}
+.container-catalog {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 12px;
+}
+.catalog {
+  width: 28%;
+  height: 550px;
+  margin-right: 12px;
+  background-color: white; 
+}
+.catalog ul {
+  list-style-type: none;
+}
+.catalog ul li {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 50px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 15px;
+}
+#one {
+  border-bottom: 1px solid #ffffff;
+}
+.catalog ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  font-family: "Quicksand", sans-serif;
+}
+.catalog ul li {
+  cursor: pointer;
+}
+.catalog ul li:hover a{
+  color: #fb9935;
+}
+.catalog ul li:hover span {
+  color: #fb9935;
+}
+.catalog ul li a span {
+  color: #666666;
+  padding-left: 18px;
+}
+.down-right {
+  padding-right: 160px;
+}
+.slider {
+  width: 50%;
+  height: 550px;
+  margin-right: 12px;
+  background-image: url('http://demo.devitems.com/lazio-v7/lazio/assets/img/slider/home2-slider1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+.slider h2 {
+  position: relative;
+  color: white;
+  text-align: center;
+  top: 50px;
+}
+.slider h1 {
+  position: relative;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  top: 60px;
+}
+.button-shop-now {
+  position: relative;
+  color: white;
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 9px;
+  border: 1px solid white;
+  border-radius: 2px;
+  top: 80px;
+  left: 220px;
+}
+.slider div:hover {
+  cursor: pointer;
+  background-color: #fb9935;
+  border: 1px solid #fb9935;
+}
+.silder-characters {
+  background-color: rgba(0,0,0,0.35);
+  width: 35px;
+  height: 35px;
+}
+.silder-characters i {
+  color: white;
+  position: relative;
+  top: 9px;
+  left: 12px;
+}
+.slider-right {
+  position: relative;
+  top: 100px;
+  left: 20px;
+}
+.slider-left {
+  position: relative;
+  top: 67px;
+  left: 490px;
+}
+.two-images {
+  width: 25%;
+  height: 550px;
+}
+.images-top {
+  width: 100%;
+  height: 275px;
+}
+.two-images img {
+  width: 100%;
+  height: 270px;
+}
+.images-bottom {
+  padding-top: 5px;
+  width: 100%;
+  height: 270px
+}
+/* kết thúc css wrapper*/
+
+/* bắt đầu banner */
+.container-banner {
+  width: 85%;
+  margin: 75px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-one {
+  width: 50%;
+}
+.banner-one img {
+  width: 96%;
+}
+.banner-two {
+  width: 50%;
+}
+.banner-two img {
+  width: 96%;
+}
+/* kết thúc banner */
